@@ -1,4 +1,4 @@
-@media screen and (max-width:700px){
+/*@media screen and (max-width:700px){
     #restaurants-list{
         flex-direction: column;   
     }
@@ -12,10 +12,36 @@
     label{
         font-weight: 500;
         font-size: 1.4em;
+    } 
+    
+};*/
+@media screen and (min-width : 768px) and (max-width : 1500px){
+    
+    #restaurants-list li{
+        flex: 30%;
+        width: 30%;
+        flex-grow: 0;
     }
-    
-    
-};
+    #restaurants-list p{
+        font-size: 1.5em;
+    }
+}
+
+
+
+@media screen and (min-width : 768px) and (max-width : 1024px){
+
+    label{
+        font-weight: 500;
+        font-size: 1.4em;
+    }
+    #restaurants-list li{
+        flex: 45%;
+    }
+    #restaurants-list p{
+        font-size: 1.5em;
+    }
+}
 
 
 
