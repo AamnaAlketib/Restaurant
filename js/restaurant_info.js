@@ -156,9 +156,11 @@ createReviewHTML = (review) => {
   const name = document.createElement('p');
   name.innerHTML = review.name;
   name.setAttribute('class', 'revName');
+  name.setAttribute('aria-label', `reviewers name is ${review.name}`);
   li.appendChild(title);
   title.appendChild(name);
   title.setAttribute('class', 'revTitle');
+  
   
   
   const date = document.createElement('p');
