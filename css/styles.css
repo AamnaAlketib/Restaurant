@@ -207,7 +207,7 @@ label{
   margin: 0;
   font-size: 1.5em;
 }
-#restaurants-list li button{
+#restaurants-list li a{
   background-color: orange;
   border-bottom: 3px solid #eee;
   color: #fff;
@@ -257,8 +257,9 @@ label{
   height: 30px;
 }
 #restaurant-img {
-  width: 100%;
+  width: 80%;
   border-radius: 30px 0px 0px 0px;
+  align-self: center
   
 }
 #restaurant-address {
@@ -269,14 +270,14 @@ label{
 #restaurant-cuisine {
   background-color: #333;
   color: #ddd;
-  
   font-weight: 300;
   letter-spacing: 10px;
   margin: 0 0 20px;
   padding: 2px 0;
   text-align: center;
   text-transform: uppercase;
-	width: 100%;
+  width: 80%;
+  align-self: center
 }
 #restaurant-container, #reviews-container {
   border-bottom: 1px solid #d9d9d9;
