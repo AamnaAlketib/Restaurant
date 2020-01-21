@@ -186,11 +186,10 @@ createRestaurantHTML = (restaurant) => {
   address.innerHTML = restaurant.address;
   textPart.append(address);
 
-  const more = document.createElement('button');
+  const more = document.createElement('a');
   more.innerHTML = 'View Details';
   /**adding an aria-label for the screen readers to assign each button with it's restaurant */
   more.setAttribute('aria-label',`View Details of ${restaurant.name}restaurant`) ;
-  /**TO BE FIXED THE LINK ON THE BUTTON */
   more.href = DBHelper.urlForRestaurant(restaurant);
   textPart.append(more)
 
