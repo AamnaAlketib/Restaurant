@@ -1,10 +1,10 @@
 # This code is still under modification, the specifications of stage 1 from the UDACITY course are met !!! 
-# To be fixed is the responsivness(broken by some playing around :P ),
+# To be fixed is 
 # the view details buttons and the accessibilty still needs some work
-# If you see this code today 12.Jan.20, please come after view days for updates
+# If you see this code today 16.Jan.20, come after view days for updates
 
 //////////////////////////////////////////////////////////////////////////
-# Mobile Web Specialist Certification Course
+# Web Specialist Certification Course
 ---
 #### _Three Stage Course Material Project - Restaurant Reviews_
 
