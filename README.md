@@ -1,7 +1,4 @@
 # This code is still under modification, the specifications of stage 1 from the UDACITY course are met !!! 
-# To be fixed is 
-# the view details buttons and the accessibilty still needs some work
-# If you see this code today 16.Jan.20, come after view days for updates
 
 //////////////////////////////////////////////////////////////////////////
 # Web Specialist Certification Course
